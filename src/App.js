@@ -11,6 +11,9 @@ function App() {
         alt='logo'
         />
       </div>
+      <div className='tareas-list-principal'>
+        <h1>Mis Tareas</h1>
+      </div>
     </div>
   );
 }
