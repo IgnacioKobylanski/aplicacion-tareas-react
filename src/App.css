@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    color: white;
+    background-color: #1b1b32;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+.App{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tareas-logo{
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
