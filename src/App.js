@@ -1,5 +1,6 @@
 import logo from './imagenes/tareas-logo.png';
 import './App.css';
+import Tarea from './componentes/Tarea';
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
         alt='logo'
         />
       </div>
-      <div className='tareas-list-principal'>
+      <div className='tareas-lista-principal'>
         <h1>Mis Tareas</h1>
+        <Tarea texto={'Aprender React'}/>
       </div>
     </div>
   );
