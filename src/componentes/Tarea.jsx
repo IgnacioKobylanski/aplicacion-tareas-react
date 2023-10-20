@@ -2,9 +2,9 @@ import React from "react";
 import '../hojas-de-estilo/Tarea.css'
 import { AiOutlineCloseCircle } from "react-icons/ai";
 
-function Tarea({ texto }) {
+function Tarea({ texto, completada }) {
   return(
-    <div className="contenedor-principal-tarea">
+    <div className={completada ? 'contenedor-principal-tarea completada' : 'contenedor-principal-tarea'}>
       <div className="tarea-texto">
         {texto}
       </div>
