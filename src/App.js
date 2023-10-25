@@ -1,7 +1,6 @@
 import logo from './imagenes/tareas-logo.png';
 import './App.css';
-import Tarea from './componentes/Tarea';
-import TareaFormulario from './componentes/TareaFormulario';
+import ListaDeTareas from './componentes/ListaDeTareas';
 
 function App() {
   return (
@@ -14,8 +13,8 @@ function App() {
         />
       </div>
       <div className='tareas-lista-principal'>
-        <h1>Mis Tareas</h1>
-      <TareaFormulario/>
+        <h1>My To Do List</h1>
+      <ListaDeTareas/>
       </div>
     </div>
   );
