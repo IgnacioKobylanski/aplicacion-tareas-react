@@ -11,7 +11,6 @@ function TareaFormulario(props){
 
   const manejarEnvio = e =>{
     e.preventDefault();
-    console.log("enviando formulario");
 
     const tareaNueva = {
       id: uuidv4(),
@@ -19,7 +18,8 @@ function TareaFormulario(props){
       completada: false
     }
     props.onSubmit(tareaNueva);
-  }
+    setInput("");
+  };
 
 
 
